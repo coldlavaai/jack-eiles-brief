@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jack Eiles — Website Brief</title>
+<title>Jack Eiles — Website & Brand Brief</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#111;color:#f0f0f0;padding:20px;line-height:1.7}
 .container{max-width:700px;margin:0 auto}
 h1{font-size:26px;color:#fff;margin-bottom:4px}
 .sub{color:#aaa;font-size:14px;margin-bottom:30px}
-h2{font-size:17px;color:#06b6d4;margin:30px 0 14px;text-transform:uppercase;letter-spacing:2px;font-weight:600}
+h2{font-size:17px;color:#06b6d4;margin:36px 0 14px;text-transform:uppercase;letter-spacing:2px;font-weight:600;border-bottom:1px solid #222;padding-bottom:8px}
 label{display:block;font-size:15px;color:#eee;margin:18px 0 8px;font-weight:500}
 input[type="text"],textarea{width:100%;padding:14px;background:#1a1a2e;border:1px solid #444;border-radius:6px;color:#fff;font-size:15px;font-family:inherit}
-textarea{min-height:90px;resize:vertical}
+textarea{min-height:100px;resize:vertical}
 input:focus,textarea:focus{outline:none;border-color:#06b6d4}
 .hint{font-size:12px;color:#888;margin-top:4px}
 button{background:#06b6d4;color:#000;border:none;padding:16px 40px;border-radius:6px;font-size:16px;font-weight:700;cursor:pointer;margin-top:30px;width:100%}
@@ -27,123 +27,164 @@ button:hover{background:#0891b2}
 <body>
 <div class="container">
 <div class="logo"><span>Cold Lava AI × Jack Eiles</span></div>
-<h1>Website Brief</h1>
-<p class="sub">Fill in what you can — the more detail, the better the website. Don't worry if you can't answer everything.</p>
+<h1>Website & Brand Brief</h1>
+<p class="sub">The more you share, the more personal the website, content, and AI will feel. Take your time — there are no wrong answers.</p>
 
 <form id="brief" action="https://formsubmit.co/hello@coldlava.ai" method="POST">
-<input type="hidden" name="_subject" value="Jack Eiles — Website Brief">
+<input type="hidden" name="_subject" value="Jack Eiles — Website & Brand Brief">
 <input type="hidden" name="_captcha" value="false">
 <input type="hidden" name="_template" value="table">
 
-<h2>About You</h2>
+<h2>Your Story</h2>
 
-<label>Your full name</label>
-<input type="text" name="full_name" value="Jack Eiles" placeholder="Jack Eiles">
+<label>Why did you leave teaching to become an IFA? What was the moment?</label>
+<textarea name="why_ifa" placeholder="What made you make the switch after 20 years?"></textarea>
 
-<label>Your job title / role</label>
-<input type="text" name="role" placeholder="e.g. Independent Financial Adviser">
+<label>What drives you now? Why do you get up in the morning to do this?</label>
+<textarea name="motivation" placeholder="What keeps you going in this role?"></textarea>
 
-<label>How long have you been an IFA?</label>
-<input type="text" name="years_ifa" placeholder="e.g. 1 year">
+<label>How would your best client describe you to a friend?</label>
+<textarea name="client_description" placeholder="If someone asked 'what's Jack like?' — what would they say?"></textarea>
 
-<label>Your previous career background</label>
-<textarea name="background" placeholder="e.g. 20 years as a secondary school English teacher..."></textarea>
+<h2>Your Approach & Values</h2>
 
-<label>What makes you different from other financial advisers?</label>
-<textarea name="usp" placeholder="What's your approach? Why should someone choose you?"></textarea>
+<label>When a new client sits down with you for the first time, what do you want them to feel?</label>
+<textarea name="first_meeting_feeling" placeholder="Safe? Informed? Relieved? No pressure?"></textarea>
 
-<label>Where are you based?</label>
-<input type="text" name="location" placeholder="e.g. Hedge End, near Southampton">
+<label>What's the first thing you usually say to put someone at ease?</label>
+<textarea name="icebreaker" placeholder="Your natural opening..."></textarea>
 
-<label>How far will you travel to meet clients?</label>
-<input type="text" name="travel" placeholder="e.g. Happy to meet anywhere in Hampshire">
+<label>What frustrates you most about the financial services industry?</label>
+<textarea name="frustrations" placeholder="What do other advisers get wrong?"></textarea>
+
+<label>What do you wish every self-employed person knew about protecting their income?</label>
+<textarea name="wish_they_knew" placeholder="The one thing people don't realise..."></textarea>
+
+<h2>Your Process</h2>
+
+<label>Walk me through what happens from first contact to policy in place — step by step.</label>
+<textarea name="process" placeholder="e.g. First we have a coffee and a chat, then I review their situation, then..."></textarea>
+
+<label>How long does it typically take from first conversation to having cover in place?</label>
+<input type="text" name="timeline" placeholder="e.g. Usually 2-3 weeks">
+
+<label>Do you stay in touch after the policy is set up? How?</label>
+<textarea name="ongoing" placeholder="e.g. Annual review, check-in calls, birthday messages..."></textarea>
+
+<label>If a client's circumstances change (new baby, new business, illness) — what happens?</label>
+<textarea name="changes" placeholder="How do you handle life changes?"></textarea>
+
+<label>Is this a one-off service or a lifelong relationship? How would you describe it?</label>
+<textarea name="relationship" placeholder="What does the ongoing relationship look like?"></textarea>
+
+<h2>Your Voice</h2>
+
+<label>If you were writing a message to someone who's been putting off getting protection — what would you say?</label>
+<textarea name="message_to_procrastinator" placeholder="In your own words, naturally..."></textarea>
+
+<label>How would you explain income protection to someone who's never heard of it? No jargon.</label>
+<textarea name="explain_ip" placeholder="Like you're explaining it to a friend in the pub..."></textarea>
+
+<label>Are you formal or casual? Suit and tie or coffee and a chat?</label>
+<input type="text" name="formality" placeholder="e.g. Definitely coffee and a chat">
+
+<label>What phrases do you naturally use?</label>
+<textarea name="phrases" placeholder="e.g. 'Let's have a look at...', 'The way I see it...', 'Here's the thing...'"></textarea>
+
+<label>What words or approaches would you NEVER use?</label>
+<textarea name="never_use" placeholder="Anything too salesy, too corporate, too pushy?"></textarea>
+
+<h2>Your Clients' World</h2>
+
+<label>What's the biggest fear your clients have when they first come to you?</label>
+<textarea name="biggest_fear" placeholder="What are they worried about?"></textarea>
+
+<label>What's the most common reason someone finally picks up the phone?</label>
+<textarea name="trigger" placeholder="What makes them actually take action?"></textarea>
+
+<label>What's the best reaction you've had from a client after getting them covered?</label>
+<textarea name="best_reaction" placeholder="A moment that reminded you why you do this..."></textarea>
+
+<label>Is there a story where cover really mattered — paid out, or where not having it caused a problem?</label>
+<textarea name="real_story" placeholder="A real example (anonymous is fine) that shows why this matters..."></textarea>
 
 <h2>Your Services</h2>
 
 <label>What protection products do you offer?</label>
-<textarea name="protection_products" placeholder="e.g. Life insurance, income protection, critical illness cover, family income benefit..."></textarea>
+<textarea name="protection" placeholder="e.g. Life insurance, income protection, critical illness, family income benefit..."></textarea>
 
-<label>Do you offer pension advice?</label>
-<textarea name="pensions" placeholder="e.g. Yes — pension consolidation, retirement planning, drawdown advice..."></textarea>
+<label>Do you offer pension advice? If so, what kind?</label>
+<textarea name="pensions" placeholder="e.g. Consolidation, retirement planning, drawdown..."></textarea>
 
-<label>Any other services? (Mortgage referrals, investments, etc.)</label>
-<textarea name="other_services" placeholder="List anything else you offer or plan to offer..."></textarea>
+<label>Any other services?</label>
+<input type="text" name="other_services" placeholder="e.g. Mortgage referrals, investments...">
 
 <label>Who is your ideal client?</label>
-<textarea name="ideal_client" placeholder="e.g. Self-employed business owners who need protection, people approaching retirement with pension pots..."></textarea>
+<textarea name="ideal_client" placeholder="e.g. Self-employed business owners, 30-55, Hampshire area..."></textarea>
 
-<h2>Your Firm</h2>
+<h2>Areas & Availability</h2>
 
-<label>Which firm are you with?</label>
-<input type="text" name="firm" placeholder="e.g. Cooper and Parks (Openwork Partnership)">
+<label>What areas do you cover?</label>
+<textarea name="areas" placeholder="e.g. Southampton, Hedge End, Fareham, Eastleigh, Winchester, all Hampshire..."></textarea>
 
-<label>Is there a firm website we should link to or reference?</label>
-<input type="text" name="firm_website" placeholder="e.g. cooperandparks.co.uk">
+<label>Do you offer remote consultations as well as face-to-face?</label>
+<input type="text" name="remote" placeholder="e.g. Yes — Zoom or in person, whatever suits">
 
-<label>Any compliance requirements we need to know about? (FCA, Openwork rules, disclaimers?)</label>
-<textarea name="compliance" placeholder="e.g. Need FCA disclaimer on every page, Openwork logo required..."></textarea>
+<h2>Content & Presence</h2>
 
-<h2>Areas You Serve</h2>
+<label>What topics could you talk about for hours?</label>
+<textarea name="passion_topics" placeholder="Finance, teaching, family, business, local community, sport..."></textarea>
 
-<label>What areas do you cover? (For local SEO)</label>
-<textarea name="areas" placeholder="e.g. Southampton, Hedge End, Fareham, Eastleigh, Winchester, Hampshire..."></textarea>
+<label>Would you be comfortable appearing on camera for short videos?</label>
+<input type="text" name="camera" placeholder="Yes/No/Maybe">
 
-<label>Do you offer remote/online consultations as well as face-to-face?</label>
-<input type="text" name="remote" placeholder="e.g. Yes — Zoom or in person">
+<label>Do you have any opinions that go against the industry?</label>
+<textarea name="hot_takes" placeholder="e.g. 'Most IFAs overcomplicate things...', 'The industry doesn't care about small clients...'"></textarea>
 
-<h2>Content & Branding</h2>
+<label>What questions do people ask you most at networking events?</label>
+<textarea name="common_questions" placeholder="The things people always want to know..."></textarea>
 
-<label>Do you have a professional headshot we can use?</label>
+<h2>Compliance & Firm</h2>
+
+<label>Any compliance requirements for the website? (FCA disclaimers, Openwork logo, approved wording?)</label>
+<textarea name="compliance" placeholder="Anything we need to include legally..."></textarea>
+
+<h2>Branding</h2>
+
+<label>Do you have a professional headshot?</label>
 <input type="text" name="headshot" placeholder="Yes/No — send separately if yes">
 
 <label>Any colour preferences for the website?</label>
 <input type="text" name="colours" placeholder="e.g. Navy and gold, or 'happy for you to choose'">
 
 <label>Any websites you like the look of?</label>
-<textarea name="inspiration" placeholder="Paste any URLs of sites you think look professional..."></textarea>
-
-<label>How would you describe your style/personality to clients?</label>
-<textarea name="personality" placeholder="e.g. Approachable, straight-talking, educational, no jargon..."></textarea>
-
-<h2>Website Features</h2>
-
-<label>Would you like an AI chatbot on your site? (Answers questions, books consultations 24/7)</label>
-<input type="text" name="chatbot" placeholder="Yes/No">
-
-<label>Would you like a blog? (Helps Google rankings — "Do self-employed people need life insurance?" etc.)</label>
-<input type="text" name="blog" placeholder="Yes/No">
-
-<label>Would you like a free guide or download? (e.g. "The Self-Employed Protection Checklist" — captures email leads)</label>
-<input type="text" name="lead_magnet" placeholder="Yes/No + any ideas">
-
-<label>Do you want a booking calendar on the site? (Visitors book a consultation directly)</label>
-<input type="text" name="booking" placeholder="Yes/No">
+<textarea name="inspiration" placeholder="Paste any URLs..."></textarea>
 
 <h2>Contact Details (for the website)</h2>
 
 <label>Phone number</label>
-<input type="text" name="phone" placeholder="e.g. 07498 397538">
+<input type="text" name="phone" placeholder="07498 397538">
 
-<label>Email address</label>
-<input type="text" name="email" placeholder="e.g. jack@cooperandparks.co.uk">
+<label>Email</label>
+<input type="text" name="email" placeholder="jack@cooperandparks.co.uk">
 
-<label>LinkedIn profile URL</label>
-<input type="text" name="linkedin" placeholder="e.g. linkedin.com/in/jackeiles">
+<label>LinkedIn URL</label>
+<input type="text" name="linkedin" placeholder="linkedin.com/in/...">
 
 <label>Any other social media?</label>
-<input type="text" name="social" placeholder="e.g. Facebook, Instagram...">
+<input type="text" name="social" placeholder="Facebook, Instagram...">
 
 <h2>Anything Else</h2>
 
-<label>Is there anything specific you want on the website that we haven't asked about?</label>
-<textarea name="anything_else" placeholder="Any other thoughts, ideas, must-haves..."></textarea>
+<label>Is there anything we haven't asked that you think is important?</label>
+<textarea name="anything_else" placeholder="Final thoughts, must-haves, ideas..."></textarea>
 
 <button type="submit">Submit Brief</button>
 </form>
 
 <div class="success" id="success">
 <h2>✅ Brief Submitted!</h2>
-<p style="margin-top:12px;color:#ccc">Thanks Jack — we've got everything we need. We'll be in touch shortly.</p>
+<p style="margin-top:12px;color:#ccc">Thanks Jack — we've got everything we need to build something that genuinely feels like you. We'll be in touch shortly.</p>
 </div>
 
 <script>
